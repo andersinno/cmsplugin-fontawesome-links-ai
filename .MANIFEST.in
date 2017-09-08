@@ -1,4 +1,0 @@
-include README.rst
-recursive-include cmsplugin_fontawesome_links_ai *.*
-recursive-exclude cmsplugin_fontawesome_links_ai ._*
-recursive-exclude cmsplugin_fontawesome_links_ai .DS_Store

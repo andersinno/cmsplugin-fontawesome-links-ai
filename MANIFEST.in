@@ -1,0 +1,5 @@
+include LICENSE README.rst
+recursive-include cmsplugin_fontawesome_links_ai \
+    *.html *.yml *.css *.js \
+    *.otf *.eot *.svg *.ttf *.woff *.woff2
+prune cmsplugin_fontawesome_links_ai/static_src

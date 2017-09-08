@@ -1,0 +1,19 @@
+{# Add font-awesome.min.css if your project does not have it yet #}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'cmsplugin_fontawesome_links_ai/css/font-awesome.min.css' %}">
+
+{% if instance.title %}
+    <h5 class="fontawesome-links-title">{{ instance.title }}</h5>
+{% endif %}
+<ul class="fontawesome-links">
+    {% for link in instance.fontawesome_links.all %}
+        <li class="fontawesome-link">
+            <a href="{{ link.url }}">
+                <i class="fa fa-{{ link.icon }}"></i>
+                {% if link.link_text %}
+                    <span class="fontawesome-link-text">{{ link.link_text }}</span>
+                {% endif %}
+            </a>
+        </li>
+    {% endfor %}
+</ul>

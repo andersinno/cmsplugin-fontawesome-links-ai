@@ -1,4 +1,16 @@
 include README.rst
-recursive-include cmsplugin_fontawesome_links_ai *.*
+recursive-include cmsplugin_fontawesome_links_ai *.py
+recursive-include cmsplugin_fontawesome_links_ai *.html
+recursive-include cmsplugin_fontawesome_links_ai *.yml
+recursive-include cmsplugin_fontawesome_links_ai *.css
+recursive-include cmsplugin_fontawesome_links_ai *.js
+recursive-include cmsplugin_fontawesome_links_ai *.png
+recursive-include cmsplugin_fontawesome_links_ai *.gif
+recursive-include cmsplugin_fontawesome_links_ai *.otf
+recursive-include cmsplugin_fontawesome_links_ai *.eot
+recursive-include cmsplugin_fontawesome_links_ai *.svg
+recursive-include cmsplugin_fontawesome_links_ai *.ttf
+recursive-include cmsplugin_fontawesome_links_ai *.woff
+recursive-include cmsplugin_fontawesome_links_ai *.woff2
 recursive-exclude cmsplugin_fontawesome_links_ai ._*
 recursive-exclude cmsplugin_fontawesome_links_ai .DS_Store

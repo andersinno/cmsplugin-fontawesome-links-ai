@@ -1,0 +1,13 @@
+{
+  "name": "cmsplugin-fontawesome-links-ai",
+  "version": "0.0.1",
+  "authors": [
+    "Anders Innovations <info@anders.fi>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "~4.7.0",
+    "select2": "4.0.x"
+  }
+}
